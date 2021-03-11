@@ -1,0 +1,59 @@
+.logo {
+	max-width: 120px;
+	width: 100%;
+}
+.list {
+	font-size: 18px;
+	font-family: "BPG Banner ExtraSquare Caps", sans-serif;
+	color: #1A3F5F;
+	margin-left: 46px;
+}
+.wraper-ul {
+	display: flex;
+}
+.myheader {
+	background-image: url(../img/bg-image-home.png);
+	height: 657px;
+}
+.navigation {
+	margin-left: 
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1085px;
+	width: 100%;
+	margin: 0 auto;
+}
+.title {
+	font-family: 'Balsamiq Sans', cursive;
+	color: #1A3F5F;
+	font-size: 65px;
+}
+.homedescription {
+	font-size: 17px;
+	max-width: 630px;
+	width: 100%;
+	font-family: "BPG Banner ExtraSquare Caps", sans-serif;
+	color: #1A3F5F;
+	margin-top: 5px;
+}
+.wrap-description {
+	margin-top: 40px;
+}
+.firsttext {
+	display: flex;
+	flex-direction: column;
+	padding-left: 135px;
+	padding-top: 170px;
+}
+
+/*section1 */ 
+.about {
+	font-family: "BPG Banner ExtraSquare Caps", sans-serif; 
+	max-width: 195px;
+	width: 100%;
+	color: #EB553B;
+	font-size: 60px;
+}
