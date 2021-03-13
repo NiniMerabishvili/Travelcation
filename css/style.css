@@ -182,8 +182,15 @@
 	font-size: 14px;
 	color: #1A3F5F;
 	position: absolute;
-	top: 480px;
+
 }
 .see-more:focus {
 	outline: none;
+}
+
+/*section3*/
+.blogparagraph {
+	font-family: "DejaVu Sans", sans-serif;
+	font-size: 15px;
+	width: 499px;
 }
