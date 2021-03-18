@@ -1,3 +1,7 @@
+.active {
+	background-color: lightgrey;
+}
+
 .logo {
 	max-width: 120px;
 	width: 100%;
@@ -16,21 +20,26 @@
 	height: 657px;
 	background-repeat: no-repeat;
 }
-.navigation {
-	margin-left: 
-}
 .container {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	max-width: 1085px;
+	justify-content: space-around;
+	position: fixed;
 	width: 100%;
-	margin: 0 auto;
+	z-index: 1;
 }
+/*<container1>*/
+.container1 {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+/*<container1/>*/
 .title {
 	font-family: 'Balsamiq Sans', cursive;
 	color: #1A3F5F;
 	font-size: 65px;
+	margin-top: 85px;
 }
 .homedescription {
 	font-size: 17px;
@@ -57,6 +66,7 @@
 	width: 100%;
 	color: #EB553B;
 	font-size: 60px;
+	margin-bottom: 50px;
 }
 .secondtext {
 	display: flex;
@@ -78,34 +88,9 @@
 	position: relative;
 }
 .maincontainer2 {
-	background-color: lightgrey;
+	background-color: #1A3F5F;
 	padding-bottom: 137px;
-}
-.horse {
-	max-width: 113px;
-	width: 100%;
-	color: #EB553B; 
-	margin-top: 60px;
-}
-.projecttitles {
-	color: #EB553B;
-	font-size: 25px;
-	font-family: "BPG Banner ExtraSquare Caps", sans-serif; 
-	margin-top: 22px;
-}
-.projectp {
-	color: #1A3F5F;
-	font-size: 20px;
-	font-family: "DejaVu Sans bold", sans-serif;
-	margin-top: 15px;
-}
-.projectp1 {
-	color: #1A3F5F;
-	font-size: 16px;
-	font-family: "DejaVu Sans", sans-serif;
-	width: 300px;
-	text-align: center; 
-	margin-top: 15px;
+	padding-top: 
 }
 .project {
 	display: flex;
@@ -171,6 +156,31 @@
 	text-align: center; 
 	margin-top: 15px;
 }
+.project-place1-home {
+	color: white;
+	font-size: 20px;
+	font-family: "DejaVu Sans", sans-serif;
+	margin-top: 16px;
+}
+.project-p1-home {
+	width: 356px;
+	font-size: 17px;
+	font-family: "DejaVu Sans", sans-serif;
+	color: white;
+	text-align: center;
+	margin-top: 18px;
+}
+#icon {
+	color: #FDBB02;
+}
+#yoga {
+	font-size: 115px;
+	color: #FDBB02;
+}
+#brain {
+	font-size: 115px;
+	color: #FDBB02;	
+}
 /*button*/
 .see-more {
 	background-color: #FDBB02;
@@ -184,17 +194,13 @@
 	color: #1A3F5F;
 	position: absolute;
 	margin-left: 583px;
-
+	margin-top: -35px;
 }
 .see-more:focus {
 	outline: none;
 }
 
 /*section3*/
-.blog1 {
-	font-family: "BPG Banner ExtraSquare Caps bold", sans-serif; 
-	color: #1A3F5F;
-}
 .blogparagraph {
 	font-family: "DejaVu Sans", sans-serif;
 	font-size: 15px;
@@ -214,14 +220,19 @@
 .text {
 	margin-left: 30px;
 }
+.blog1 {
+	font-size: 20px;
+	max-width: 630px;
+	width: 100%;
+	font-family: "BPG Banner ExtraSquare Caps", sans-serif;
+	color: #1A3F5F;
+	margin-top: 5px;
+}
 .blogparagraph {
 	margin-top: 10PX;
 }
-.bike-girl {
+.blog1img {
 	position: relative;
-	max-width: 536px;
-	width: 100%;
-	border-radius: 65px;
 }
 .see-more1 {
 	background-color: #FDBB02;
@@ -234,8 +245,7 @@
 	font-size: 14px;
 	color: #1A3F5F;
 	position: absolute;
-	top: 330px;
-	margin-left: 184px;
+	bottom: -30px;
 }
 .see-more1:focus {
 	outline: none;
@@ -243,6 +253,14 @@
 .blogsentences {
 	display: flex;
 }
+.img-button {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	position: relative;
+}
+
 
 /*section4*/
 .emaildiv {
@@ -299,7 +317,438 @@
 
 /*About us*/
 .myheader2 {
-	background-image: url(../img/bg-image2.png);
+	background-image: url(../img/bg-image-about.png);
+	height: 660px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+}
+.about-title {
+	font-family: "BPG Banner ExtraSquare Caps", sans-serif;
+	color: #1A3F5F;
+	font-size: 65px;
+	padding-left: 150px;
+	margin-top: 103px;
+}
+.We {
+	font-size: 40px;
+	font-family: "BPG Banner ExtraSquare Caps", sans-serif; 
+	color: #EB553B; 
+}
+.We-p {
+	max-width: 430px;
+	width: 100%;
+	font-size: 15px;
+	font-family: "DejaVu Sans", sans-serif;
+	color: #1A3F5F;
+	margin-top: 20px;
+}
+.We-p1 {
+	max-width: 460px;
+	width: 100%;
+	font-size: 15px;
+	font-family: "DejaVu Sans", sans-serif;
+	color: #1A3F5F;
+	text-align: right;
+	margin-top: 20px;
+}
+.wraper-about {
+	display: flex;
+	max-width: 1085px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 132px;
+
+}
+.Goal {
+	margin-left: 177px;
+	align-items: flex-end;
+}
+
+.yellow-div {
+	max-width: 261px;
+	width: 100%;
+	height: 225px;
+	background-color: #FDBB02;
+	color: #1A3F5F;
+	border-radius: 49px;
+	font-size: 24px;
+	font-family: "DejaVu Sans", sans-serif;
+	padding-top: 100px;
+	padding-left: 20px;
+}
+.yellow-div:nth-child(2) {
+	padding-left: 33px;
+	margin-left: 15px;
+}
+.yellow-div:nth-child(3){
+	padding-left: 65px;
+	margin-left: 15px;
+}
+.yellow-div:nth-child(4){
+	padding-left: 59px;
+	margin-left: 15px;
+}
+.yellow-div-wraper {
+	display: flex;
+	margin-top: 81px;
+}
+.priorities {
+	margin-left: 139px;
+	margin-top: 126px;
+}
+/*
+footer*/
+.myfooter {
+	background-color: #FDBB02;
+	padding-bottom: 10px;
+}
+.footer-title {
+	color: #1A3F5F;
+	font-family: "BPG Banner ExtraSquare Caps", sans-serif; 
+	font-size: 28px;
+}
+.footer-p {
+	color: #1A3F5F;
+	font-size: 20px;
+	font-family: "DejaVu Sans", sans-serif;
+	margin-top: 8px;
+}
+.footer-p1 {
+	color: #1A3F5F;
+	font-size: 20px;
+	font-family: "DejaVu Sans", sans-serif;
+	margin-top: 18px;	
+}
+.footer-divs {
+	display: flex;
+	margin-left: 139px;
+	padding-top: 121px;
+}
+.footer-projects {
+	margin-left: 48px;
+}
+.footer-blog {
+	margin-left: 69px;
+}
+.footer-logo {
+	max-width: 180px;
+	width: 100%;
+	margin-left: 90px;
+}
+
+.fa-facebook-f {
+	font-size: 30px;
+	color: #1A3F5F;
+}
+.fa-instagram-square {
+	font-size: 30px;
+	color: #1A3F5F;
+}
+.fa-twitter {
+	font-size: 30px;
+	color: #1A3F5F;
+}
+.fa-linkedin-in {
+	font-size: 30px;
+	color: #1A3F5F;
+}
+.footer-icons {
+	max-width: 260px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.wraper-icons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1031.58px;
+	width: 100%;
+}
+
+
+
+
+/*projects*/
+.myheader3 {
+	background-image: url(../img/bg-image3.png);
+	height: 683px;
+	background-repeat: no-repeat;
+}
+.fa-hat-cowboy-side {
+	font-size: 115px;
+	color: #1A3F5F;
+}
+.project-title1 {
+	color: #FDBB02;
+	font-size: 25px;
+	font-family: "BPG Banner ExtraSquare Caps", sans-serif;
+	margin-top: 22px;
+}
+.project-place1 {
+	color: #1A3F5F;
+	font-size: 20px;
+	font-family: "DejaVu Sans", sans-serif;
+	margin-top: 16px;
+}
+.project-p1 {
+	width: 356px;
+	font-size: 17px;
+	font-family: "DejaVu Sans", sans-serif;
+	color: #1A3F5F;
+	text-align: center;
+	margin-top: 18px;
+}
+.wraper-project1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 50px;
+}
+.all-projects {
+	display: flex;
+}
+.div-projects {
+	margin-left: 40px;
+	margin-top: 138px;
+}
+.all-projects1 {
+	display: flex;
+	margin-top: 119px;
+}
+.fa-wind {
+	color: #1A3F5F;
+	font-size: 115px;
+}
+.fa-brain {
+	color: #1A3F5F;
+	font-size: 115px;
+}
+.idea {
+	width: 115px;
+	color: #1A3F5F;
+}
+.fa-users {
+	font-size: 115px;
+	color: #1A3F5F;
+}
+.fa-star {
+	font-size: 115px;
+	color: #1A3F5F;
+}
+.myfooter1 {
+	background-color: #FDBB02;
+	padding-bottom: 10px;
+	margin-top: 130px;
+}
+.footer-title {
+	color: #1A3F5F;
+	font-family: "BPG Banner ExtraSquare Caps", sans-serif; 
+	font-size: 28px;
+}
+.footer-p {
+	color: #1A3F5F;
+	font-size: 20px;
+	font-family: "DejaVu Sans", sans-serif;
+	margin-top: 8px;
+}
+.footer-p1 {
+	color: #1A3F5F;
+	font-size: 20px;
+	font-family: "DejaVu Sans", sans-serif;
+	margin-top: 18px;	
+}
+.footer-divs {
+	display: flex;
+	margin-left: 139px;
+	padding-top: 121px;
+}
+.footer-projects {
+	margin-left: 48px;
+}
+.footer-blog {
+	margin-left: 69px;
+}
+.footer-logo {
+	max-width: 180px;
+	width: 100%;
+	margin-left: 90px;
+}
+
+.fa-facebook-f {
+	font-size: 30px;
+	color: #1A3F5F;
+}
+.fa-instagram-square {
+	font-size: 30px;
+	color: #1A3F5F;
+}
+.fa-twitter {
+	font-size: 30px;
+	color: #1A3F5F;
+}
+.fa-linkedin-in {
+	font-size: 30px;
+	color: #1A3F5F;
+}
+.footer-icons {
+	max-width: 260px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.wraper-icons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1031.58px;
+	width: 100%;
+}
+
+
+
+
+
+
+/*blog*/
+.myheader4 {
+	background-image: url(../img/bg-image4.png);
 	height: 657px;
 	background-repeat: no-repeat;
+}
+.twinsvideo {
+	margin-left: 375px;
+	margin-top: 150px;
+}
+
+/*blog-section2*/
+.fa-check {
+	color: #FDBB02;
+	font-size: 25px;
+}
+.blog-title {
+	color: #EB553B;
+	font-size: 25px;
+	font-family: "BPG Banner ExtraSquare Caps", sans-serif; 
+	margin-left: 20px;
+}
+.check-title {
+	display: flex;
+	align-items: center;
+	margin-top: 160px;
+}
+.blog-p {
+	max-width: 500px;
+	width: 100%;
+	color: #1A3F5F;
+	font-family: "DejaVu Sans", sans-serif;
+	margin-top: 40px;
+}
+.second-title {
+	color: #1A3F5F;
+	font-size: 25px;
+	font-family: "BPG Banner ExtraSquare Caps", sans-serif; 
+	margin-bottom: 35px;
+}
+.check-p {
+	display: flex;
+	margin-top: 8px;
+}
+.check-p-1 {
+	font-size: 15px;
+	font-family: "DejaVu Sans", sans-serif;
+	color: #1A3F5F;
+	display: flex;
+	align-items: center;
+	margin-left: 15px;
+}
+.blog-1 {
+	display: flex;
+	align-items: center;
+	margin-top: 40px;
+}
+.blog-text {
+	margin-left: 60px;
+}
+.firstblog {
+	padding-left: 139px;
+}
+
+
+.blog-p2 {
+	max-width: 630px;
+	width: 100%;
+	color: #1A3F5F;
+	font-family: "DejaVu Sans", sans-serif;
+	margin-top: 40px;
+}
+.blog-image2 {
+	max-width: 536px;
+	width: 100%;
+	border-radius: 64px;
+	margin-left: 45px;
+}
+.check-title1 {
+	display: flex;
+	align-items: center;
+	margin-top: 87px;
+}
+
+
+
+
+
+
+
+/*contact*/
+.myheader5 {
+	background-image: url(../img/bg-image-contact.png);
+	height: 657px;
+	background-repeat: no-repeat;
+}
+input {
+	max-width: 401px;
+	height: 61px;
+	background-color: #FDBB02;
+	border: none;
+	border-radius: 22px;
+	font-size: 14px;
+	color: #1A3F5F;
+	font-family: "DejaVu Sans", sans-serif;
+	padding-left: 25px;
+	padding-top: 25px;
+}
+input:focus {
+	outline: none;
+}
+input:nth-child(2) {
+	margin-top: 23px;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	margin-top: 131px;
+	padding-left: 139px;
+}
+textarea {
+	max-width: 401px;
+	height: 200px;
+	background-color: #FDBB02;
+	border: none;
+	border-radius: 22px;
+	font-size: 14px;
+	color: #1A3F5F;
+	font-family: "DejaVu Sans", sans-serif;
+	padding-left: 25px;
+	padding-top: 25px;
+	margin-top: 23px;
+}
+textarea:focus {
+	outline: none;
+}
+.contact-section1 {
+	display: flex;
+}
+.map {
+	max-width: 600px;
+	width: 100%;
+	margin-left: 50px;
 }
