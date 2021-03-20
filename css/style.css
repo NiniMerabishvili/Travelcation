@@ -6,7 +6,7 @@
 	max-width: 120px;
 	width: 100%;
 }
-.fa-bars {
+.bar-icon {
 	font-size: 25px;
 	color: #1A3F5F;
 	display: none;
@@ -24,8 +24,8 @@
 	background-image: url(../img/bg-image-home.png);
 	height: 657px;
 	background-repeat: no-repeat;
-	max-width: 100%;
-	background-size: contain;
+	width: 100%;
+	background-size: cover;
 }
 .container {
 	display: flex;
