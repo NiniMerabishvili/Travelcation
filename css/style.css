@@ -6,6 +6,12 @@
 	max-width: 120px;
 	width: 100%;
 }
+.fa-bars {
+	font-size: 25px;
+	color: #1A3F5F;
+	display: block;
+	display: none;
+}
 .list {
 	font-size: 18px;
 	font-family: "BPG Banner ExtraSquare Caps", sans-serif;

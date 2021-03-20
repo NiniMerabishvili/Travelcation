@@ -144,3 +144,10 @@
 		padding-left: 50px;
 	}
 }
+
+
+@media (max-width: 61px) {
+	.navigation {
+		display: none;
+	}
+}
