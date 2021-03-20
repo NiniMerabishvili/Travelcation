@@ -146,7 +146,7 @@
 }
 
 
-@media (max-width: 61px) {
+@media (max-width: 610px) {
 	.navigation {
 		display: none;
 	}

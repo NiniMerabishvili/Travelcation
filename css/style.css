@@ -9,7 +9,6 @@
 .fa-bars {
 	font-size: 25px;
 	color: #1A3F5F;
-	display: block;
 	display: none;
 }
 .list {
@@ -654,7 +653,6 @@ footer*/
 	margin-left: 139px;
 	margin-top: 150px;
 }
-
 /*blog-section2*/
 .fa-check {
 	color: #FDBB02;
