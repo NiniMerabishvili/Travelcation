@@ -1,0 +1,146 @@
+@media (max-width: 1124px) {
+	.secondtext {
+		max-width:880px;
+		width: 100%;
+	}
+	.wrap-description {
+		max-width: 470px;
+		width: 100%;
+	}
+	.section3 {
+		padding-left: 90px;
+	}
+	.container2 {
+		max-width: 900px;
+		width: 100%;
+	}
+	.project-title1 {
+		font-size: 20px;
+	}
+	.project-place1-home {
+		font-size: 18px;
+	}
+	.project-p1-home {
+		font-size: 15px;
+		max-width: 300px;
+		width: 100%;
+	}
+	.project-title1 {
+		max-width: 170px;
+		width: 100%;
+	}
+}
+
+@media (max-width: 1027px) {
+	.title {
+		font-size: 50px;
+	}
+	.wrap-description {
+		max-width: 400px;
+		width: 100%;
+	}
+	.homedescription {
+		font-size: 15px;
+	}
+	.footer-icons {
+		max-width: 200px;
+		width: 100%;
+	}
+	.wraper-icons {
+		max-width: 900px;
+		width: 100%;
+	}
+}
+
+
+@media (max-width: 960px) {
+	.wrap-description {
+		max-width: 380px;
+		width: 100%;
+	}
+	.homedescription {
+		font-size: 14px;
+	}
+	.about {
+		max-width: 300px;
+		width: 100%;
+		font-size: 50px;
+	}
+	.secondtext {
+		max-width: 690px;
+		width: 100%;
+	}
+	.section3 {
+		padding-left: 90px;
+	}
+	.container2 {
+		max-width: 800px;
+		width: 100%;
+	}
+	.project-title1 {
+		font-size: 20px;
+	}
+	.project-place1-home {
+		font-size: 18px;
+	}
+	.project-p1-home {
+		font-size: 15px;
+		max-width: 300px;
+		width: 100%;
+	}
+	.project-title1 {
+		max-width: 170px;
+		width: 100%;
+	}
+	.second-title {
+		font-size: 20px;
+	}
+	.check-p-1 {
+		font-size: 12px;
+	}
+}
+
+
+@media (max-width: 900px) {
+	.wrap-description {
+		max-width: 350px;
+		width: 100%;
+	}
+	.homedescription {
+		font-size: 13px;
+	}
+	.firsttext {
+		padding-top: 100px;
+	}
+	.about {
+		font-size: 50px;
+	}
+	.wraper-icons {
+		max-width: 800px;
+		width: 100%;
+	}
+	.secondtext {
+		margin-top: -70px;
+	}
+}
+
+
+@media (max-width: 845px) {
+	.wrap-description {
+		max-width: 280px;
+		width: 100%;
+	}
+	.homedescription {
+		font-size: 15px;
+	}
+	.firsttext {
+		padding-top: 80px;
+	}
+	.secondtext {
+		max-width: 580px;
+		width: 100%;
+	}
+	.about-projects {
+		padding-left: 50px;
+	}
+}

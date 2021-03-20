@@ -19,8 +19,8 @@
 	background-image: url(../img/bg-image-home.png);
 	height: 657px;
 	background-repeat: no-repeat;
-	width: 100%;
-	background-size: cover;
+	max-width: 100%;
+	background-size: contain;
 }
 .container {
 	display: flex;
@@ -42,10 +42,11 @@
 	color: #1A3F5F;
 	font-size: 65px;
 	margin-top: 85px;
+	max-width: 360px;
 }
 .homedescription {
 	font-size: 17px;
-	max-width: 630px;
+	max-width: 590px;
 	width: 100%;
 	font-family: "BPG Banner ExtraSquare Caps", sans-serif;
 	color: #1A3F5F;
@@ -53,6 +54,8 @@
 }
 .wrap-description {
 	margin-top: 40px;
+	max-width: 590px;
+	width: 100%;
 }
 .firsttext {
 	display: flex;
@@ -64,25 +67,30 @@
 /*section1 */ 
 .about {
 	font-family: "BPG Banner ExtraSquare Caps", sans-serif; 
-	max-width: 238px;
+	max-width: 350px;
 	width: 100%;
 	color: #EB553B;
 	font-size: 60px;
-	margin-bottom: 50px;
 }
 .secondtext {
 	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	max-width: 1085px;
 	width: 100%;
 	margin: 0 auto;
 	margin-top: 133px;
 }
-.wrap-description1 {
-	margin-top: 40px;
-	margin-left: 157px;
-}
 .section1 {
 	padding-bottom: 157px;
+}
+
+.about-projects {
+	font-family: "BPG Banner ExtraSquare Caps", sans-serif; 
+	max-width: 350px;
+	width: 100%;
+	color: #EB553B;
+	font-size: 60px;
 }
 
 /*section2*/ 
@@ -93,6 +101,7 @@
 	background-color: #1A3F5F;
 	padding-bottom: 137px;
 	position: relative; 
+	width: 100%;
 }
 .project {
 	display: flex;
@@ -106,11 +115,17 @@
 	justify-content: space-around;
 }
 .container2 {
-	max-width: 1085px;
+	max-width: 1100px;
 	width: 100%;
 	margin: 0 auto;
-	padding-top: 60px;
-	
+	padding-top: 50px;
+}
+.all-projects {
+	margin-top: 50px;
+	max-width: 1100px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
 }
 
 /*project2*/
@@ -124,7 +139,8 @@
 	color: #1A3F5F;
 	font-size: 16px;
 	font-family: "DejaVu Sans bold", sans-serif;
-	width: 300px;
+	max-width: 300px;
+	width: 100%;
 	text-align: center; 
 	margin-top: 15px;
 }
@@ -132,9 +148,14 @@
 	color: #1A3F5F;
 	font-size: 16px;
 	font-family: "DejaVu Sans", sans-serif;
-	width: 290px;
+	max-width: 290px;
+	width: 100%;
 	text-align: center; 
 	margin-top: 15px;
+}
+.project-title1 {
+	max-width: 230px;
+	width: 100%;
 }
 /*project3*/ 
 .projecttitle3 {
@@ -196,13 +217,22 @@
 	font-size: 14px;
 	color: #1A3F5F;
 	position: absolute;
-	
+	right: 50%;
+	transform(overflow-x: -50px)
+
 }
 .see-more:focus {
 	outline: none;
 }
 
 /*section3*/
+.buttondiv {
+	max-width: 172px;
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 94%;
+}
 .blogparagraph {
 	font-family: "DejaVu Sans", sans-serif;
 	font-size: 15px;
@@ -503,13 +533,11 @@ footer*/
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-left: 50px;
 }
 .all-projects {
 	display: flex;
 }
 .div-projects {
-	margin-left: 40px;
 	margin-top: 138px;
 }
 .all-projects1 {
