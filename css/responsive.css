@@ -295,3 +295,44 @@
 
 
 
+@media (max-width: 585px) {
+	.wrap-description {
+		max-width: 200px;
+		width: 100%;
+	}
+	.homedescription {
+		font-size: 12px;
+	}
+	.firsttext {
+		padding-left: 70px;
+		padding-top: 50px;
+	}	
+	.myheader {
+		height: 420px;
+	}
+	.secondtext {
+	    max-width: 425px;
+	    width: 100%;
+	}
+		.container2 {
+		max-width: 525px;
+		width: 100%;
+	}
+	.second-title {
+		margin-bottom: 18px;
+		font-size: 16px;
+	}
+	.check-p-1 {
+		font-size: 12px;
+	}
+	.blog-text {
+		margin-left: 40px;
+	}
+	.fa-check {
+		font-size: 20px;
+	}
+	.mainfooterdiv {
+		max-width: 530px;
+		width: 100%;
+	}
+}
