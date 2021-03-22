@@ -244,4 +244,54 @@
 	#icon {
 		font-size: 90px;
 	}
+	.all-projects {
+		flex-direction: column;
+	}
+	.wraper-project1 {
+		margin-top: 40px;
+	}
+	.buttondiv {
+		top: 97%;
+	}
+	.section3 {
+		padding-top: 100px;
+	}
+	.check-p-1 {
+		max-width: 180px;
+		width: 100%;
+	}
+	.blog-title {
+		font-size: 22px;
+	}
+	.blog-p {
+		font-size: 14px;
+	}
+	.footer-p, 
+	.footer-p1 {
+		font-size: 13px;
+		max-width: 140px;
+		width: 100%;
+	}
+	.footer-title {
+		font-size: 20px;
+	}
+	.footer-icons {
+		max-width: 160px;
+		width: 100%;
+	}
+	.wraper-icons {
+		max-width: 670px;
+		width: 100%;
+	}
+	.myheader {
+		height: 500px;
+	}
+	.container2 {
+		max-width: 580px;
+		width: 100%;
+	}
 }
+
+
+
+

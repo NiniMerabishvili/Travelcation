@@ -118,12 +118,14 @@
 .wraper-project {
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 }
 .container2 {
 	max-width: 1100px;
 	width: 100%;
 	margin: 0 auto;
 	padding-top: 50px;
+	flex-wrap: wrap;
 }
 .all-projects {
 	margin-top: 50px;
@@ -224,7 +226,6 @@
 	position: absolute;
 	right: 50%;
 	transform(overflow-x: -50px)
-
 }
 .see-more:focus {
 	outline: none;
@@ -546,6 +547,7 @@ footer*/
 }
 .all-projects {
 	display: flex;
+	align-items: center;
 }
 .div-projects {
 	margin-top: 138px;
