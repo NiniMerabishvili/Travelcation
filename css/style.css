@@ -84,7 +84,7 @@
 	max-width: 1085px;
 	width: 100%;
 	margin: 0 auto;
-	/*margin-top: 133px;*/
+	margin-top: 133px;
 }
 .section1 {
 	padding-bottom: 157px;
@@ -358,7 +358,8 @@
 	background-image: url(../img/bg-image-about.png);
 	height: 660px;    
 	background-repeat: no-repeat;
-	background-size: cover;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+	background-size: cover; 
+	width: 100%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 }
 .about-title {
 	font-family: "BPG Banner ExtraSquare Caps", sans-serif;
@@ -434,8 +435,10 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin-top: 126px;
+	max-width: 1090px;
+	width: 100%;
 	margin: 0 auto;
+	margin-top: 120px;
 }
 /*
 footer*/
@@ -462,7 +465,6 @@ footer*/
 }
 .footer-divs {
 	display: flex;
-	margin-left: 139px;
 	padding-top: 121px;
 }
 .footer-projects {
@@ -474,7 +476,6 @@ footer*/
 .footer-logo {
 	max-width: 180px;
 	width: 100%;
-	margin-left: 90px;
 }
 
 .fa-facebook-f {
@@ -506,6 +507,11 @@ footer*/
 	max-width: 1031.58px;
 	width: 100%;
 }
+.mainfooterdiv {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+}
 
 
 
@@ -515,6 +521,8 @@ footer*/
 	background-image: url(../img/bg-image3.png);
 	height: 683px;
 	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
 }
 .fa-hat-cowboy-side {
 	font-size: 115px;
@@ -525,6 +533,9 @@ footer*/
 	font-size: 25px;
 	font-family: "BPG Banner ExtraSquare Caps", sans-serif;
 	margin-top: 22px;
+	text-align: center;
+	max-width: 190px;
+	width: 100%;
 }
 .project-place1 {
 	color: #1A3F5F;
@@ -551,6 +562,12 @@ footer*/
 }
 .div-projects {
 	margin-top: 138px;
+	max-width: 1100px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 .all-projects1 {
 	display: flex;
@@ -600,19 +617,11 @@ footer*/
 }
 .footer-divs {
 	display: flex;
-	margin-left: 139px;
 	padding-top: 121px;
-}
-.footer-projects {
-	margin-left: 48px;
-}
-.footer-blog {
-	margin-left: 69px;
 }
 .footer-logo {
 	max-width: 180px;
 	width: 100%;
-	margin-left: 90px;
 }
 
 .fa-facebook-f {
@@ -655,6 +664,8 @@ footer*/
 	background-image: url(../img/bg-image4.png);
 	height: 657px;
 	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
 }
 .twinsvideo {
 	margin-left: 139px;
@@ -744,6 +755,8 @@ footer*/
 	background-image: url(../img/bg-image-contact.png);
 	height: 657px;
 	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
 }
 input {
 	max-width: 401px;
@@ -767,7 +780,6 @@ form {
 	display: flex;
 	flex-direction: column;
 	margin-top: 131px;
-	padding-left: 139px;
 }
 textarea {
 	max-width: 401px;
@@ -793,4 +805,9 @@ textarea:focus {
 	width: 100%;
 	margin-left: 50px;
 	padding-right: 10px;
+}
+.info {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
 }
