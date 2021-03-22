@@ -9,7 +9,7 @@
 .bar-icon {
 	font-size: 25px;
 	color: #1A3F5F;
-	display: none;
+	display: none!important;
 }
 .list {
 	font-size: 18px;
@@ -84,7 +84,7 @@
 	max-width: 1085px;
 	width: 100%;
 	margin: 0 auto;
-	margin-top: 133px;
+	/*margin-top: 133px;*/
 }
 .section1 {
 	padding-bottom: 157px;
@@ -355,7 +355,9 @@
 /*About us*/
 .myheader2 {
 	background-image: url(../img/bg-image-about.png);
-	height: 660px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+	height: 660px;    
+	background-repeat: no-repeat;
+	background-size: cover;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
 }
 .about-title {
 	font-family: "BPG Banner ExtraSquare Caps", sans-serif;
@@ -428,8 +430,11 @@
 	margin-top: 81px;
 }
 .priorities {
-	margin-left: 139px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	margin-top: 126px;
+	margin: 0 auto;
 }
 /*
 footer*/

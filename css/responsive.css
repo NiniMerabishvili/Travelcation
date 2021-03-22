@@ -107,6 +107,9 @@
 	.myheader {
 		background-size: contain;
 	}
+	.secondtext {
+		margin-top: 30px;
+	}
 }
 
 
@@ -137,7 +140,7 @@
 }
 
 
-@media (max-width: 845px) {
+@media (max-width: 840px) {
 	.wrap-description {
 		max-width: 280px;
 		width: 100%;
@@ -158,11 +161,87 @@
 	.myheader {
 		background-size: contain;
 	}
+	.navigation {
+		display: none;
+	}
+	.bar-icon {
+		display: block!important;
+	}
+	.container {
+		max-width: 840px;
+		width: 100%;
+	}
 }
 
 
-@media (max-width: 610px) {
-	.navigation {
-		display: none;
+@media (max-width: 828px) {
+	.title {
+		font-size: 40px;
+	}
+	.blog-img1 {
+		max-width: 
+	}
+	.blogimg-home {
+		max-width: 300px;
+		width: 100%;
+	}
+	.wraper-icons {
+		max-width: 760px;
+		width: 100%;
+	}
+	.footer-p {
+		font-size: 16px;
+	}
+	.footer-p1 {
+		font-size: 16px;
+	}
+	.footer-title {
+		font-size: 22px;
+	}
+}
+
+
+@media (max-width: 720px) {
+	.logo {
+		max-width: 80px;
+		width: 100%;
+	}
+	.bar-icon {
+		font-size: 20px;
+	}
+	.title {
+		font-size: 30px;
+	}
+	.homedescription {
+		font-size: 13px;
+	}
+	.wrap-description {
+		max-width: 220px;
+		width: 100%;
+		margin-top: 20px;
+	}
+	.title {
+		margin-top: 60px;
+	}
+	.section1 {
+		padding-bottom: 80px;
+	}
+	.firsttext {
+		padding-left: 100px;
+	}
+	.about {
+		font-size: 40px;
+		max-width: 200px;
+		width: 100%;
+	}
+	.secondtext {
+		max-width: 490px;
+		width: 100%;
+	}
+	.about-projects {
+		font-size: 40px;
+	}
+	#icon {
+		font-size: 90px;
 	}
 }
