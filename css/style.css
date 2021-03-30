@@ -10,6 +10,7 @@
 	font-size: 25px;
 	color: #1A3F5F;
 	display: none!important;
+	cursor: pointer;
 }
 .list {
 	font-size: 18px;
@@ -85,9 +86,6 @@
 	width: 100%;
 	margin: 0 auto;
 	margin-top: 133px;
-}
-.section1 {
-	padding-bottom: 157px;
 }
 
 .about-projects {
@@ -226,10 +224,16 @@
 	position: absolute;
 	right: 50%;
 	transform(overflow-x: -50px)
+	transition: 0.3s linear;
+}
+.see-more:hover {
+	background-color: #EB553B;
+	color: #1A3F5F;
 }
 .see-more:focus {
 	outline: none;
 }
+
 
 /*section3*/
 .buttondiv {
@@ -284,9 +288,14 @@
 	color: #1A3F5F;
 	position: absolute;
 	bottom: -30px;
+	transition: 0.3s linear;
 }
 .see-more1:focus {
 	outline: none;
+}
+.see-more1:hover {
+	background-color: #1A3F5F;
+	color: #FDBB02;
 }
 .blogsentences {
 	display: flex;
@@ -297,6 +306,10 @@
 	justify-content: flex-end;
 	align-items: center;
 	position: relative;
+}
+.bglogimg-home:hover {
+	color: #1A3F5F;
+	opacity: 50%;
 }
 
 
@@ -340,14 +353,75 @@
 	margin-top: 145px;
 }
 
+
+/*section5*/
+.youremail {
+	background-color: #FDBB02;
+	color: #1A3F5F;
+	font-size: 14px;
+	font-family: "DejaVu Sans", sans-serif;
+	max-width: 400px;
+	width: 100%;
+	height: 64px;
+	padding: 24px;
+	border: none;
+	border-radius: 60px;
+}
+.youremail:focus {
+	outline: none;
+}
+.send {
+	background-color: #1A3F5F;
+	color: #FDBB02;
+	font-size: 14px;
+	font-family: "DejaVu Sans", sans-serif;
+	max-width: 172px;
+	width: 100%;
+	height: 64px;
+	padding: 24px;
+	border: none;
+	border-radius: 60px;
+	transition: 0.2s linear;
+}
+.send:focus {
+	outline: none;
+}
+.send:hover {
+	background-color: #FDBB02; 
+	color: #1A3F5F;
+}
+.yourmaildiv {
+	display: flex;
+	align-items: center;
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	justify-content: space-between;
+	margin-top: 145px;
+}
+.emailinputs {
+	max-width: 600px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
 /*footer*/
 .myfooter {
 	background-color: #FDBB02;
+	/*margin-top: 125px;*/
 }
 .footertitle {
 	font-size: 31px;
 	color: #1A3F5F;
 	font-family: "BPG Banner ExtraSquare Caps bold", sans-serif;
+}
+.footer-icon {
+	font-size: 30px;
+	color: #1A3F5F;
+	transition: 0.2s linear;
+}
+.footer-icon:hover {
+	color: #EB553B;
 }
 
 
@@ -412,24 +486,22 @@
 	border-radius: 49px;
 	font-size: 24px;
 	font-family: "DejaVu Sans", sans-serif;
-	padding-top: 100px;
-	padding-left: 20px;
+	transition: 0.25s linear;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.2s linear;
 }
-.yellow-div:nth-child(2) {
-	padding-left: 33px;
-	margin-left: 15px;
-}
-.yellow-div:nth-child(3){
-	padding-left: 65px;
-	margin-left: 15px;
-}
-.yellow-div:nth-child(4){
-	padding-left: 59px;
-	margin-left: 15px;
+.yellow-div:hover {
+	background-color: #1A3F5F;
+	color: #FDBB02;
 }
 .yellow-div-wraper {
 	display: flex;
 	margin-top: 81px;
+	max-width: 1100px;
+	width: 100%;
+	justify-content: space-between;
 }
 .priorities {
 	display: flex;
@@ -445,6 +517,7 @@ footer*/
 .myfooter {
 	background-color: #FDBB02;
 	padding-bottom: 10px;
+	margin-top: 120px;
 }
 .footer-title {
 	color: #1A3F5F;
@@ -521,8 +594,8 @@ footer*/
 	background-image: url(../img/bg-image3.png);
 	height: 683px;
 	background-repeat: no-repeat;
-	width: 100%;
 	background-size: cover;
+	width: 100%;
 }
 .fa-hat-cowboy-side {
 	font-size: 115px;
@@ -561,7 +634,7 @@ footer*/
 	align-items: center;
 }
 .div-projects {
-	margin-top: 138px;
+	margin-top: 158px;
 	max-width: 1100px;
 	width: 100%;
 	margin: 0 auto;
@@ -593,6 +666,14 @@ footer*/
 	font-size: 115px;
 	color: #1A3F5F;
 }
+.project-icon {
+	font-size: 115px;
+	color: #1A3F5F;
+	transition: 0.2s linear;
+}
+.project-icon:hover {
+	color: #EB553B;
+}
 .myfooter1 {
 	background-color: #FDBB02;
 	padding-bottom: 10px;
@@ -622,6 +703,7 @@ footer*/
 .footer-logo {
 	max-width: 180px;
 	width: 100%;
+	transition: 0.3s linear;
 }
 
 .fa-facebook-f {
@@ -758,8 +840,9 @@ footer*/
 	width: 100%;
 	background-size: cover;
 }
-input {
+.contactinput {
 	max-width: 401px;
+	width: 100%;
 	height: 61px;
 	background-color: #FDBB02;
 	border: none;
@@ -770,19 +853,22 @@ input {
 	padding-left: 25px;
 	padding-top: 25px;
 }
-input:focus {
+.contactinput:focus {
 	outline: none;
 }
-input:nth-child(2) {
+.contactinput:nth-child(2) {
 	margin-top: 23px;
 }
 form {
 	display: flex;
 	flex-direction: column;
 	margin-top: 131px;
+	max-width: 401px;
+	width: 100%;
 }
 textarea {
 	max-width: 401px;
+	width: 100%;
 	height: 200px;
 	background-color: #FDBB02;
 	border: none;
@@ -803,11 +889,33 @@ textarea:focus {
 .map {
 	max-width: 600px;
 	width: 100%;
+	height: 362px;
 	margin-left: 50px;
 	padding-right: 10px;
 }
 .info {
-	max-width: 1200px;
+	display: flex;
+	align-items: center;
+	max-width: 1100px;
 	width: 100%;
 	margin: 0 auto;
 }
+
+
+
+
+
+
+
+
+/*hover effects*/
+.homehover {
+	transition: 0.2s linear;
+}
+.homehover:hover {
+	background-color: #1A3F5F;
+	color: #FDBB02;
+}
+/*.homehover:hover {
+	color: #FDBB02;
+}*/

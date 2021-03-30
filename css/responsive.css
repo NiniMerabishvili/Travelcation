@@ -10,6 +10,9 @@
 	.section3 {
 		padding-left: 90px;
 	}
+	.maincontainer2 {
+		margin-top: 100px;
+	}
 	.container2 {
 		max-width: 900px;
 		width: 100%;
@@ -29,8 +32,22 @@
 		max-width: 170px;
 		width: 100%;
 	}
+	.maindiv3 {
+		max-width: 1000px;
+		width: 100%;
+		margin: 0 auto; 
+	}
 	.myheader {
 		background-size: contain;
+		height: 535px;
+	}
+	.horisontallogo {
+		max-width: 150px;
+		width: 100%;
+	}
+	.yourmaildiv {
+		max-width: 870px;
+		width: 100%;
 	}
 }
 
@@ -55,6 +72,10 @@
 	}
 	.myheader {
 		background-size: contain;
+		height: 500px;
+	}
+	.maincontainer2 {
+		margin-top: 100px;
 	}
 }
 
@@ -75,9 +96,6 @@
 	.secondtext {
 		max-width: 690px;
 		width: 100%;
-	}
-	.section3 {
-		padding-left: 90px;
 	}
 	.container2 {
 		max-width: 800px;
@@ -110,6 +128,19 @@
 	.secondtext {
 		margin-top: 30px;
 	}
+	.yourmaildiv {
+		max-width: 830px;
+		width: 100%;
+	}
+	.footer-p1 {
+		max-width: 200px;
+		width: 100%;
+	}
+	.footer-divs {
+		max-width: 870px;
+		width: 100%;
+		margin: 0 auto;
+	}
 }
 
 
@@ -132,10 +163,29 @@
 		width: 100%;
 	}
 	.secondtext {
-		margin-top: -70px;
+		/*margin-top: -70px;*/
 	}
 	.myheader {
 		background-size: contain;
+	}
+	.horisontallogo {
+		display: none;
+	}
+	.emailinputs {
+		margin: 0 auto;
+		max-width: 700px;
+		width: 100%;
+	}
+	.footer-title {
+		font-size: 23px;
+	}
+	.footer-p1,
+	.footer-p {
+		font-size: 18px;
+	}
+	.footer-divs {
+		max-width: 750px;
+		width: 100%;
 	}
 }
 
@@ -170,6 +220,21 @@
 	.container {
 		max-width: 840px;
 		width: 100%;
+	}
+	/*
+	*/{
+		display: block;
+	}
+	.logonav {
+		display: block;
+	}
+	.wraper-ul {
+		display: block;
+		text-align: center;
+	}
+	li {
+		margin-left: 0px;
+		padding: 5px;
 	}
 }
 
@@ -290,6 +355,32 @@
 		max-width: 580px;
 		width: 100%;
 	}
+	.horisontallogo {
+		display: none;
+	}
+	.emailinputs {
+		margin: 0 auto;
+		max-width: 550px;
+		width: 100%;
+	}
+	.youremail {
+		max-width: 350px;
+		width: 100%;
+	}
+	.footer-divs {
+		max-width: 550px;
+		width: 100%;
+	}
+	.footer-logo {
+		max-width: 160px;
+		width: 100%;
+		max-width: 120px;
+	}
+	.wraper-icons {
+		max-width: 550px;
+		width: 100%;
+		margin: 0 auto;
+	}
 }
 
 
@@ -334,5 +425,39 @@
 	.mainfooterdiv {
 		max-width: 560px;
 		width: 100%;
+	}
+	.emailinputs {
+		margin: 0 auto;
+		flex-direction: column;
+		align-items: center;
+		max-width: 550px;
+		width: 100%;
+	}
+	.send {
+		margin-top: 20px;
+	}
+	.footer-icon {
+		font-size: 25px;
+	}
+	.footer-icons {
+		max-width: 120px;
+		width: 100%;
+	}
+	.footer-logo {
+		max-width: 120px;
+		width: 100%;
+	}
+	.wraper-icons {
+		max-width: 500px;
+	}
+	.footer-divs {
+		max-width: 500px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.firstblog-home {
+		max-width: 500px;
+		width: 100%;
+		margin: 0 auto;
 	}
 }

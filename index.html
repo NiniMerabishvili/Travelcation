@@ -19,17 +19,21 @@
 <body>
 	<header class="myheader">
 		<div class="container">
-			<a href="index.html"> <img src="img/logo.svg" alt="Travelcation logo" class="logo"> </a> 
-			<nav class="navigation">
-				<ul class="wraper-ul">
-					<li> <a href="index.html" class="list"> მთავარი </a></li>
-					<li> <a href="about us.html" class="list"> ჩვენს შესახებ</a></li>
-					<li> <a href="Projects.html" class="list"> პროექტები </a></li>
-					<li> <a href="blog.html" class="list"> ბლოგი </a></li>
-					<li> <a href="contact.html" class="list"> კონტაქტი </a></li>
-				</ul>
-			</nav>
-			<i class="fas fa-bars bar-icon"></i>
+			<ul class="logonav">
+				<a href="index.html"> <img src="img/logo.svg" alt="Travelcation logo" class="logo"> </a> 
+				<nav class="navigation" id="menu">
+					<ul class="wraper-ul">
+						<li> <a href="index.html" class="list homehover"> მთავარი </a></li>
+						<li> <a href="about us.html" class="list"> ჩვენს შესახებ</a></li>
+						<li> <a href="Projects.html" class="list"> პროექტები </a></li>
+						<li> <a href="blog.html" class="list"> ბლოგი </a></li>
+						<li> <a href="contact.html" class="list"> კონტაქტი </a></li>
+					</ul>
+				</nav>
+			</ul>
+			<div id="burger-menu">
+				<i class="fas fa-bars bar-icon"></i>
+			</div>
 		</div>
 		<div class="firsttext">
 			<h1 class="title"> Travelcation </h1>
@@ -79,39 +83,50 @@
 		</div>
 	</section>
 	<section class="section3">
-		<h1 class="about">  ბლოგი </h1>
-		<div class="firstblog-home">
-			<div class="article1">
-				<div class="check-title1">
-					<i class="fas fa-check"></i>
-					<h1 class="blog-title"> როგორ ვიცხოვროთ ჯანსაღი ცხოვრებით? </h1>
-				</div>
-				<p class="blog-p"> ყველა ადამიანს კალორიების გარკვეული რაოდენობა სჭირდება, რომლებიც ენერგიად გარდაიქმნება და უზრუნველყოფს ორგანიზმის ფუნქციონირებას. ჯანმრთელობისთვის, კალორიების რაოდენობასთან ერთად, არანაკლებ მნიშვნელოვანია, რა ტიპის საკვებისგან ვიღებთ მათ. </p>
-			</div>
-			<div class="blog-1">
-				<div class="img-button">
-					<img src="img/blog-img1.png" alt="blog image- girl with bike" class="blogimg-home">
-					<button class="see-more1"> იხილეთ მეტი </button>
-				</div>
-				<div class="blog-text">
-					<h2 class="second-title"> ჯანსაღი ცხოვრება: </h2>
-					<div class="check-p">
-						<i class="fas fa-check" class="check"></i>
-						<p class="check-p-1"> ჯანსაღი ცხოვრება აუმჯობესებს ორგანიზმის მუშოაბას </p>
-					</div>
-					<div class="check-p">
-						<i class="fas fa-check" class="check"></i>
-						<p class="check-p-1"> აჩქარებს მეტაბოლიზმს </p>
-					</div>
-					<div class="check-p">
+		<div class="maindiv3">
+			<h1 class="about">  ბლოგი </h1>
+			<div class="firstblog-home">
+				<div class="article1">
+					<div class="check-title1">
 						<i class="fas fa-check"></i>
-						<p class="check-p-1"> აჯანსაღებს გულ-სისხლძარღვთა სისტემას </p>
+						<h1 class="blog-title"> როგორ ვიცხოვროთ ჯანსაღი ცხოვრებით? </h1>
 					</div>
-					<div class="check-p">
-						<i class="fas fa-check" class="check"></i>
-						<p class="check-p-1"> ჯანსაღი ორგანიზმი ლამაზია </p>
+					<p class="blog-p"> ყველა ადამიანს კალორიების გარკვეული რაოდენობა სჭირდება, რომლებიც ენერგიად გარდაიქმნება და უზრუნველყოფს ორგანიზმის ფუნქციონირებას. ჯანმრთელობისთვის, კალორიების რაოდენობასთან ერთად, არანაკლებ მნიშვნელოვანია, რა ტიპის საკვებისგან ვიღებთ მათ. </p>
+				</div>
+				<div class="blog-1">
+					<div class="img-button">
+						<img src="img/blog-img1.png" alt="blog image- girl with bike" class="blogimg-home">
+						<button class="see-more1"> იხილეთ მეტი </button>
+					</div>
+					<div class="blog-text">
+						<h2 class="second-title"> ჯანსაღი ცხოვრება: </h2>
+						<div class="check-p">
+							<i class="fas fa-check" class="check"></i>
+							<p class="check-p-1"> ჯანსაღი ცხოვრება აუმჯობესებს ორგანიზმის მუშოაბას </p>
+						</div>
+						<div class="check-p">
+							<i class="fas fa-check" class="check"></i>
+							<p class="check-p-1"> აჩქარებს მეტაბოლიზმს </p>
+						</div>
+						<div class="check-p">
+							<i class="fas fa-check"></i>
+							<p class="check-p-1"> აჯანსაღებს გულ-სისხლძარღვთა სისტემას </p>
+						</div>
+						<div class="check-p">
+							<i class="fas fa-check" class="check"></i>
+							<p class="check-p-1"> ჯანსაღი ორგანიზმი ლამაზია </p>
+						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="yourmaildiv">
+			<img src="img/horisontallogo.svg" alt="Travelcation horisontal logo" class="horisontallogo">
+			<div class="emailinputs">
+				<input type="enter your email" name="enter your email" class="youremail" placeholder="შეიყვანეთ თქვენი მეილი">
+				<button class="send" type="send"> გაგზავნა </button>
 			</div>
 		</div>
 	</section>
@@ -143,10 +158,10 @@
 			<div class="wraper-icons">
 				<a href="index.html"> <img src="img/logo.svg" class="footer-logo" alt="Travelcation logo"> </a>
 				<div class="footer-icons">
-					<a href="https://www.facebook.com/Travelcation-103215661827193"> <i class="fab fa-facebook-f"></i> </a>
-					<a href="#"> <i class="fab fa-instagram-square"> </i> </a>
-					<a href="#"> <i class="fab fa-twitter"></i> </a>
-					<a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+					<a href="https://www.facebook.com/Travelcation-103215661827193"> <i class="fab fa-facebook-f footer-icon"></i> </a>
+					<a href="#"> <i class="fab fa-instagram-square footer-icon"> </i> </a>
+					<a href="#"> <i class="fab fa-twitter footer-icon"></i> </a>
+					<a href="#"> <i class="fab fa-linkedin-in footer-icon"></i> </a>
 				</div>
 			</div>
 		</div>
