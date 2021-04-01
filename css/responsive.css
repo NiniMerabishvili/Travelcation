@@ -460,3 +460,15 @@
 		margin: 0 auto;
 	}
 }
+
+
+
+@media (max-width: 480px) {
+	.myheader {
+		background-image: url(../img/travelcation width 480px.png);
+		width: 480px;
+		background-repeat: no-repeat;
+		width: 100%;
+		background-size: cover;
+	}
+}

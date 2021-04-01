@@ -105,6 +105,7 @@
 /*section2*/ 
 .section2 {
 	position: relative;
+	margin-top: 80px;
 }
 .maincontainer2 {
 	background-color: #1A3F5F;
