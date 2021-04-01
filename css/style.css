@@ -926,3 +926,19 @@ textarea:focus {
 /*.homehover:hover {
 	color: #FDBB02;
 }*/
+
+
+.Ani {
+	font-size: 50px;
+	font-family: "BPG Banner ExtraSquare Caps", sans-serif;
+	color: #1A3F5F;
+	text-align: center;
+}
+.Ani:hover {
+	color: #FDBB02;
+	font-size: 55px;
+}
+
+.list:hover{
+	border-bottom: 3px solid;
+}
