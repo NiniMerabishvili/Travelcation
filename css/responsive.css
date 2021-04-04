@@ -562,6 +562,8 @@
 	}
 	.wrap-description {
 		display: none;
+		max-width: 260px;
+		width: 100%;
 	}
 	.secondtext {
 		max-width: 260px;

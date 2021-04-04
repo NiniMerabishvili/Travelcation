@@ -35,6 +35,8 @@
 	position: fixed;
 	width: 100%;
 	z-index: 1;
+	top: 0px;
+	left: 0px;
 }
 .logonav {
 	display: flex;
@@ -47,6 +49,10 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
 }
 /*<container1/>*/
 .title {
@@ -92,6 +98,7 @@
 	width: 100%;
 	margin: 0 auto;
 	margin-top: 133px;
+	flex-wrap: wrap;
 }
 
 .about-projects {
@@ -447,7 +454,7 @@
 	color: #1A3F5F;
 	font-size: 65px;
 	padding-left: 150px;
-	margin-top: 103px;
+	padding-top: 280px;
 }
 .We {
 	font-size: 40px;
@@ -926,7 +933,22 @@ textarea:focus {
 /*.homehover:hover {
 	color: #FDBB02;
 }*/
-
-.list:hover{
+.wraper-ul {
+	position: relative;
+	transition: 0.7s linear;
+}
+.list::after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 3px;
+	top: 100%;
+	left: 0;
+	background: #ff7000;
+	transition: transform 0.5s;
+	transform: scaleX(0);
+	transform-origin: left;
+}
+.list:hover {
 	border-bottom: 3px solid;
 }
