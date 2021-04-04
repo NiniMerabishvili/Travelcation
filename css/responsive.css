@@ -206,8 +206,9 @@
 		max-width: 580px;
 		width: 100%;
 	}
-	.about-projects {
-		padding-left: 50px;
+	.container2 {
+		max-width: 580px;
+		width: 100%;
 	}
 	.myheader {
 		background-size: contain;
@@ -492,10 +493,98 @@
 	}
 	.firsttext {
 		padding-top: 70px;
-		max-width: 340px;
-		margin: 0 auto;
+		max-width: 470px;
+		width: 100%;
 	}
 	.section3 {
 		padding-top: 80px;
+		max-width: 380px;
+		width: 100%;
+	}
+	.mainfooterdiv {
+		max-width: 380px;
+		width: 100%;
+	}
+}
+
+
+
+@media (max-width: 320px) {
+	.myheader {
+		height: 250px;
+	}
+	.footer-divs {
+		display: none;
+	}
+	.maindiv3 {
+		max-width: 310px;
+	}
+	.blog-p {
+		display: none;
+	}
+	.blog-title {
+		font-size: 18px;
+	}
+	.blog-1 {
+		flex-wrap: wrap;
+		height: 400px;
+		align-items: flex-start; 
+	}
+	.section3 {
+		max-width: 260px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.blogimg-home {
+		max-width: 250px;
+	}
+	.blog-text {
+		align-self: flex-end;
+	}
+	.firstblog-home {
+		max-width: 280px;
+		margin: 0 auto;
+	}
+	.project-p1-home {
+		max-width: 200px;
+		width: 100%;
+	}
+	.firsttext {
+		max-width: 260px;
+		width: 100%;
+	}
+	.title {
+		font-size: 32px;
+		max-width: 220px;
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 70px;
+	}
+	.wrap-description {
+		display: none;
+	}
+	.secondtext {
+		max-width: 260px;
+		width: 100%;
+	}
+	.container2 {
+		max-width: 260px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.youremail {
+		max-width: 260px;
+		width: 100%;
+	}
+	.yourmaildiv {
+		margin-top: 80px;
+	}
+	.emailinputs {
+		max-width: 260px;
+		width: 100%;
+	}
+	.wraper-icons {
+		max-width: 260px;
+		width: 100%;
 	}
 }
