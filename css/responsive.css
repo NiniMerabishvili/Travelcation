@@ -11,7 +11,7 @@
 		margin-top: 100px;
 	}
 	.container2 {
-		max-width: 900px;
+		max-width: 780px;
 		width: 100%;
 	}
 	.project-title1 {
@@ -45,6 +45,17 @@
 	.yourmaildiv {
 		max-width: 870px;
 		width: 100%;
+	}
+
+
+
+	/*projects*/
+	.myheader3 {
+		background-size: contain;
+	}	
+	.about-title {
+		font-size: 45px;
+		padding-top: 240px;
 	}
 }
 
@@ -95,7 +106,7 @@
 		width: 100%;
 	}
 	.container2 {
-		max-width: 700px;
+		max-width: 650px;
 		width: 100%;
 	}
 	.project-title1 {
@@ -140,6 +151,13 @@
 	}
 	.maindiv3 {
 		max-width: 700px;
+		width: 100%;
+	}
+
+
+	/*Projects*/
+	.projects-container {
+		max-width: 356px;
 		width: 100%;
 	}
 }
@@ -207,11 +225,14 @@
 		width: 100%;
 	}
 	.container2 {
-		max-width: 580px;
+		max-width: 600px;
 		width: 100%;
 	}
 	.myheader {
 		background-size: contain;
+	}
+	.myheader3 {
+		height: 500px;
 	}
 	.navigation {
 		display: none;
@@ -236,6 +257,17 @@
 	li {
 		margin-left: 0px;
 		padding: 5px;
+	}
+
+
+	/*Projects*/
+	.projects-container {
+		max-width: 356px;
+		width: 100%;
+	}
+	.about-title {
+		padding-top: 180px;
+		font-size: 40px; 
 	}
 }
 
@@ -350,7 +382,7 @@
 		height: 400px;
 	}
 	.container2 {
-		max-width: 580px;
+		max-width: 400px;
 		width: 100%;
 	}
 	.horisontallogo {
@@ -378,6 +410,14 @@
 		max-width: 550px;
 		width: 100%;
 		margin: 0 auto;
+	}
+
+
+
+	/*Projects*/
+	.about-title {
+		padding-top: 180px;
+		font-size: 40px; 
 	}
 }
 
@@ -458,6 +498,14 @@
 		width: 100%;
 		margin: 0 auto;
 	}
+
+
+
+		/*Projects*/
+	.projects-container {
+		max-width: 356px;
+		width: 100%;
+	}
 }
 
 
@@ -496,6 +544,10 @@
 		max-width: 470px;
 		width: 100%;
 	}
+	.container2 {
+		max-width: 300px;
+		margin: 0 auto;
+	}
 	.section3 {
 		padding-top: 80px;
 		max-width: 380px;
@@ -503,6 +555,14 @@
 	}
 	.mainfooterdiv {
 		max-width: 380px;
+		width: 100%;
+	}
+
+
+
+	/*Projects*/
+	.projects-container {
+		max-width: 356px;
 		width: 100%;
 	}
 }

@@ -133,6 +133,7 @@
 	flex-wrap: wrap;
 }
 .container2 {
+	display: flex;
 	max-width: 1100px;
 	width: 100%;
 	margin: 0 auto;
@@ -444,7 +445,7 @@
 /*About us*/
 .myheader2 {
 	background-image: url(../img/bg-image-about.png);
-	height: 660px;    
+	height: 730px;    
 	background-repeat: no-repeat;
 	background-size: cover; 
 	width: 100%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
@@ -605,8 +606,8 @@ footer*/
 
 /*projects*/
 .myheader3 {
-	background-image: url(../img/bg-image3.png);
-	height: 683px;
+	background-image: url(../img/Projects-bg.png);
+	height: 657px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -643,6 +644,9 @@ footer*/
 	flex-direction: column;
 	align-items: center;
 }
+.wraper-project1 {
+	margin-bottom: 30px;
+}
 .all-projects {
 	display: flex;
 	align-items: center;
@@ -659,6 +663,7 @@ footer*/
 .all-projects1 {
 	display: flex;
 	margin-top: 119px;
+	flex-wrap: wrap;
 }
 .fa-wind {
 	color: #1A3F5F;
@@ -692,6 +697,7 @@ footer*/
 	background-color: #FDBB02;
 	padding-bottom: 10px;
 	margin-top: 130px;
+	width: 100%;
 }
 .footer-title {
 	color: #1A3F5F;
