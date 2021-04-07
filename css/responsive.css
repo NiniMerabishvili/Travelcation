@@ -85,6 +85,17 @@
 	.maincontainer2 {
 		margin-top: 100px;
 	}
+
+
+
+	/*projects*/	
+	.about-title {
+		font-size: 45px;
+		padding-top: 200px;
+	}
+	.container2 {
+		padding-top: 0px;
+	}
 }
 
 
@@ -206,6 +217,18 @@
 		max-width: 750px;
 		width: 100%;
 	}
+
+
+
+
+
+	/*Projects*/
+	.about-title {
+		padding-top: 170px;
+	}
+	.myheader3 {
+		height: 600px;
+	}
 }
 
 
@@ -300,6 +323,9 @@
 
 
 @media (max-width: 720px) {
+	.myheader {
+		height: 200px;
+	}
 	.logo {
 		max-width: 80px;
 		width: 100%;
@@ -335,6 +361,7 @@
 	}
 	.about-projects {
 		font-size: 40px;
+		padding-top: 20px;
 	}
 	#icon {
 		font-size: 90px;
@@ -419,6 +446,9 @@
 		padding-top: 180px;
 		font-size: 40px; 
 	}
+	.myheader3 {
+		height: 400px;
+	}
 }
 
 
@@ -437,13 +467,13 @@
 		padding-top: 50px;
 	}	
 	.myheader {
-		height: 420px;
+		height: 320px;
 	}
 	.secondtext {
 	    max-width: 425px;
 	    width: 100%;
 	}
-		.container2 {
+	.container2 {
 		max-width: 525px;
 		width: 100%;
 	}
@@ -506,6 +536,9 @@
 		max-width: 356px;
 		width: 100%;
 	}
+	.myheader3 {
+		height: 350px;
+	}
 }
 
 
@@ -564,6 +597,56 @@
 	.projects-container {
 		max-width: 356px;
 		width: 100%;
+	}
+	.myheader3 {
+		height: 300px;
+	}
+}
+
+
+
+
+@media (max-width: 440px) {
+	.footer-divs {
+		display: none;
+	}
+}
+
+
+
+@media (max-width: 400px) {
+	.wraper-icons {
+		max-width: 320px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.about-title {
+		display: none;
+	}
+	.myheader3 {
+		height: 250px;
+	}
+}
+
+
+
+
+@media (max-width: 374px) {
+	.myheader3 {
+		height: 200px;
+	}
+	.wraper-projects1 {
+		max-width: 280px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.project-p1 {
+		width: 250px;
+	}
+	.projects-container {
+		max-width: 250px;
+		width: 100%;
+		margin: 0 auto;
 	}
 }
 
