@@ -19,23 +19,30 @@
 <body>
 	<header class="myheader4">
 		<div class="container">
-			<a href="index.html"> <img src="img/logo.svg" alt="Travelcation logo" class="logo"> </a> 
-			<nav class="navigation">
-				<ul class="wraper-ul">
-					<li> <a href="index.html" class="list"> მთავარი </a></li>
-					<li> <a href="about us.html" class="list"> ჩვენს შესახებ</a></li>
-					<li> <a href="Projects.html" class="list"> პროექტები </a></li>
-					<li> <a href="blog.html" class="list"> ბლოგი </a></li>
-					<li> <a href="contact.html" class="list"> კონტაქტი </a></li>
-				</ul>
-			</nav>
+			<ul class="logonav">
+				<a href="index.html"> <img src="img/logo.svg" alt="Travelcation logo" class="logo"> </a> 
+				<nav class="navigation" id="menu">
+					<ul class="wraper-ul">
+						<li> <a href="index.html" class="list homehover"> მთავარი </a></li>
+						<li> <a href="about us.html" class="list"> ჩვენს შესახებ</a></li>
+						<li> <a href="Projects.html" class="list"> პროექტები </a></li>
+						<li> <a href="blog.html" class="list"> ბლოგი </a></li>
+						<li> <a href="contact.html" class="list"> კონტაქტი </a></li>
+					</ul>
+				</nav>
+			</ul>
+			<div id="burger-menu">
+				<i class="fas fa-bars bar-icon"></i>
+			</div>
 		</div>
 		<div>
 			<h1 class="about-title"> ბლოგი </h1>
 		</div>
 	</header>
 	<section>
-		<iframe width="1120" height="630" src="https://www.youtube.com/embed/jxw4k3DIj_s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="twinsvideo" class="twinsvideo"></iframe>
+		<div class="twinsvideodiv">
+			<iframe width="1120" height="630" src="https://www.youtube.com/embed/jxw4k3DIj_s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="twinsvideo" class="twinsvideo"></iframe>
+		</div>
 	</section>
 	<section>
 		<div class="firstblog">
@@ -133,10 +140,10 @@
 			<div class="wraper-icons">
 				<a href="index.html"> <img src="img/logo.svg" class="footer-logo" alt="Travelcation logo"> </a>
 				<div class="footer-icons">
-					<a href="https://www.facebook.com/Travelcation-103215661827193"> <i class="fab fa-facebook-f"></i> </a>
-					<a href="#"> <i class="fab fa-instagram-square"> </i> </a>
-					<a href="#"> <i class="fab fa-twitter"></i> </a>
-					<a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+					<a href="https://www.facebook.com/Travelcation-103215661827193"> <i class="fab fa-facebook-f footer-icon"></i> </a>
+					<a href="#"> <i class="fab fa-instagram-square footer-icon"> </i> </a>
+					<a href="#"> <i class="fab fa-twitter footer-icon"></i> </a>
+					<a href="#"> <i class="fab fa-linkedin-in footer-icon"></i> </a>
 				</div>
 			</div>
 		</div>

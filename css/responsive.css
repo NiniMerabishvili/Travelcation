@@ -1,4 +1,4 @@
-@media (max-width: 1124px) {
+@media (max-width: 1125px) {
 	.secondtext {
 		max-width:880px;
 		width: 100%;
@@ -101,7 +101,7 @@
 	}
 }
 
-@media (max-width: 1027px) {
+@media (max-width: 1024px) {
 	.title {
 		font-size: 50px;
 	}
@@ -111,6 +111,9 @@
 	}
 	.homedescription {
 		font-size: 15px;
+	}
+	.about-projects {
+		padding-top: 50px;
 	}
 	.footer-icons {
 		max-width: 200px;
@@ -147,6 +150,18 @@
 		width: 100%;
 		margin: 0 auto;
 		margin-left: 120px;
+	}
+
+
+
+
+	/*About Us*/
+	.wraper-about {
+		max-width: 970px;
+		width: 100%;
+	}
+	.We {
+	 font-size: 30px;
 	}
 }
 
@@ -257,9 +272,6 @@
 	.wraper-icons {
 		max-width: 800px;
 		width: 100%;
-	}
-	.secondtext {
-		/*margin-top: -70px;*/
 	}
 	.myheader {
 		background-size: contain;
@@ -446,6 +458,16 @@
 }
 
 
+
+@media (max-width: 760px) {
+	.twinsvideo {
+		max-width: 680px;
+		width: 100%;
+		margin: 0 auto;
+		margin-left: 20px;
+	}
+}
+
 @media (max-width: 720px) {
 	.myheader {
 		height: 200px;
@@ -573,6 +595,46 @@
 	.myheader3 {
 		height: 400px;
 	}
+
+
+	/*blog*/
+	.myheader4 {
+		height: 450px;
+	}
+	.about-title {
+		padding-left: 90px;
+	}
+	.twinsvideo {
+		max-width: 500px;
+		width: 100%;
+		margin: 0 auto;
+		margin-left: 90px;
+	}
+	.blog-1 {
+		flex-wrap: wrap;
+	}
+	.blog-text {
+		margin-top: 20px;
+	}
+	.firstblog {
+		max-width: 600px;
+		width: 100%;
+	}
+	.blog-image2 {
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+}
+
+
+@media (max-width: 609px) {
+	.twinsvideo {
+		max-width: 450px;
+		height: 450px;
+		width: 100%;
+		margin: 0 auto;
+		margin-left: 90px;
+	}
 }
 
 
@@ -655,7 +717,7 @@
 
 
 
-		/*Projects*/
+	/*Projects*/
 	.projects-container {
 		max-width: 356px;
 		width: 100%;
@@ -663,6 +725,31 @@
 	.myheader3 {
 		height: 350px;
 	}
+
+
+	/*blog*/ 
+	.firstblog {
+		max-width: 400px;
+		width: 100%;
+	}
+	.twinsvideo {
+		margin-left: 45px;
+	}
+	.about-title {
+		font-size: 30px;
+	}
+	.myheader4 {
+		height: 400px;
+	}
+}
+
+@media (max-width: 532px) {
+	.twinsvideo {
+		max-width: 390px;
+		width: 100%;
+		height: 400px;
+	}
+
 }
 
 
@@ -725,6 +812,23 @@
 	.myheader3 {
 		height: 300px;
 	}
+
+
+
+	/*blog*/ 
+	.twinsvideo {
+		max-width: 320px;
+		width: 100%;
+		height: 300px;
+		padding-left: 30px;
+	}
+	.myheader4 {
+		height: 300px;
+	}
+	.about-title {
+		font-size: 25px;
+		padding-left: 65px;
+	}
 }
 
 
@@ -733,6 +837,13 @@
 @media (max-width: 440px) {
 	.footer-divs {
 		display: none;
+	}
+
+
+	/*blog*/ 
+	.firstblog {
+		max-width: 300px;
+		width: 100%;
 	}
 }
 
@@ -749,6 +860,14 @@
 	}
 	.myheader3 {
 		height: 250px;
+	}
+
+
+	/*blog*/ 
+	.twinsvideo {
+		max-width: 280px;
+		width: 100%;
+		padding-left: 20px;
 	}
 }
 
@@ -771,6 +890,16 @@
 		max-width: 250px;
 		width: 100%;
 		margin: 0 auto;
+	}
+
+
+
+	/*blog*/ 
+	.twinsvideo {
+		max-width: 240px;
+		width: 100%;
+		padding-left: 0px;
+		height: 280px;
 	}
 }
 
@@ -855,5 +984,22 @@
 	.wraper-icons {
 		max-width: 260px;
 		width: 100%;
+	}
+
+
+
+
+	/*blog*/ 
+	.firstblog {
+		max-width: 250px;
+		width: 100%;
+	}
+	.myheader4 {
+		height: 255px;
+	}
+	.twinsvideo {
+		max-width: 200px;
+		width: 100%;
+		height: 250px;
 	}
 }
