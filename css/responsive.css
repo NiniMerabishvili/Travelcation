@@ -163,6 +163,10 @@
 	.We {
 	 font-size: 30px;
 	}
+	.wraper-about {
+		max-width: 700px;
+		width: 100%;
+	}
 
 
 
@@ -175,6 +179,10 @@
 	width: 100%;
 	
 	}
+
+
+
+	about
 }
 
 
@@ -879,6 +887,18 @@
 	/*contact*/
 	.myheader5 {
 		height: 370px;
+	}
+
+
+	/*about*/
+	.wraper-about {
+		flex-direction: column;
+		align-items: center;
+	}
+	.priorities {
+		max-width: 270px;
+		width: 100%;
+		margin: 0 auto;
 	}
 
 }
