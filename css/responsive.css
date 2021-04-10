@@ -163,6 +163,18 @@
 	.We {
 	 font-size: 30px;
 	}
+
+
+
+	/*contact*/
+	.myheader5 {
+		background-size: contain;
+	}
+	.info {
+	max-width: 900px;
+	width: 100%;
+	
+	}
 }
 
 
@@ -459,16 +471,43 @@
 
 
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
+	/*blog*/
 	.twinsvideo {
 		max-width: 680px;
 		width: 100%;
 		margin: 0 auto;
 		margin-left: 20px;
 	}
+
+
+
+	/*contact*/
+	.myheader5 {
+		height: 450px;
+	}
+	.info {
+		flex-direction: column;
+	}
+	.map {
+		margin-top: 20px;
+	}
+	.yourmaildiv {
+		flex-direction: column;
+		max-width: 400px;
+		width: 100%;
+	}
+	.emailinputs {
+		flex-direction: column;
+		align-items: center;
+	}
+	.youremail {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
 	.myheader {
 		height: 200px;
 	}
@@ -637,7 +676,12 @@
 	}
 }
 
-
+@media (max-width: 678px) {
+	.map {
+		max-width: 400px;
+		width: 100%;
+	}
+}
 
 
 @media (max-width: 585px) {
@@ -829,6 +873,14 @@
 		font-size: 25px;
 		padding-left: 65px;
 	}
+
+
+
+	/*contact*/
+	.myheader5 {
+		height: 370px;
+	}
+
 }
 
 
@@ -1001,5 +1053,23 @@
 		max-width: 200px;
 		width: 100%;
 		height: 250px;
+	}
+
+
+
+	/*contact*/
+	.map {
+		max-width: 280px;
+		width: 100%;
+	}
+	.form {
+		max-width: 280px;
+		width: 100%;
+	}
+	.myheader5 {
+		height: 200px;
+	}
+	.info {
+		margin-top: 20px;
 	}
 }
